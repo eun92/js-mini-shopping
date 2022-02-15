@@ -17,7 +17,7 @@
 
 # 주요기능
 
-1. 타입별 목록 불러오기
+1. 전체 아이템 목록 불러오기
 2. 타입별 목록 필터(정렬)
 
 ![image](https://user-images.githubusercontent.com/62632252/153341723-123966b2-5788-4bfc-a5cb-cd3674193bfd.png)
