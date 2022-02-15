@@ -29,6 +29,7 @@
 1. 그라데이션 애니메이션 배경
 2. 목록 박스 형태로 변경
 3. 마우스 오버 효과 추가
+4. 위시리스트 표시 (저장은 x)
 
 ![image](https://user-images.githubusercontent.com/62632252/153341840-0016ac6c-e690-4ec1-82df-4ef90e6a27c9.png)
 ![image](https://user-images.githubusercontent.com/62632252/153341854-f1d093f8-2d8b-4309-8bed-864e50f5c93f.png)
