@@ -21,8 +21,7 @@
 2. 타입별 목록 필터(정렬)
 
 ![image](https://user-images.githubusercontent.com/62632252/153341723-123966b2-5788-4bfc-a5cb-cd3674193bfd.png)
-![image](https://user-images.githubusercontent.com/62632252/153341742-148bd584-2d21-4836-86df-35c8d04972b9.png)
-![image](https://user-images.githubusercontent.com/62632252/153341785-44f1b72e-29ab-4d69-9495-8b1801aebe13.png)
+![Feb-15-2022 14-35-54](https://user-images.githubusercontent.com/62632252/154015106-5bf3574d-ace3-4f63-94de-7cb118b583b5.gif)
   <br><br>
 
 # 스타일 변경
@@ -31,5 +30,5 @@
 3. 마우스 오버 효과 추가
 4. 위시리스트 표시 (저장은 x)
 
-![image](https://user-images.githubusercontent.com/62632252/153341840-0016ac6c-e690-4ec1-82df-4ef90e6a27c9.png)
-![image](https://user-images.githubusercontent.com/62632252/153341854-f1d093f8-2d8b-4309-8bed-864e50f5c93f.png)
+![Feb-15-2022 14-53-52](https://user-images.githubusercontent.com/62632252/154015140-c1d8ac06-f518-4385-832d-0a8affb251bc.gif)
+
