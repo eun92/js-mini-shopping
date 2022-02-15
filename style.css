@@ -163,6 +163,15 @@ body {
   opacity: 1;
 }
 
+.item:hover .icon-wish {
+  display: block;
+  /* transform: scale(3); */
+  /* position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
 .item:hover img {
   transform: scale(1.2) translateY(-10px);
 }
@@ -181,4 +190,17 @@ body {
 .item__description {
   margin-left: var(--base-space);
   font-size: var(--font-size);
+}
+
+.item .icon-wish {
+  /* display: none; */
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: #ddd;
+  cursor: pointer;
+}
+
+.item .icon-wish.is-active {
+  color: #7b5fac;
 }

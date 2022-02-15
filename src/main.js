@@ -1,6 +1,6 @@
 // data fetch
 function fetchData() {
-  return fetch("data/data.json")
+  return fetch("data/items.json")
     .then((response) => response.json())
     .then((json) => json.items)
 }
@@ -15,6 +15,9 @@ function displayItems(items) {
 function createHTMLString(item) {
   return `
   <li class="item">
+    <span class="material-icons-round icon-wish">
+    favorite
+    </span>
     <img src="${item.image}" alt="${item.type}" class="item__thumbnail" />
     <span class="item__description">
     ${item.gender}, ${item.size}
@@ -28,8 +31,6 @@ function onClickButton(event, items) {
   const key = dataset.key
   const value = dataset.value
 
-  console.log(key, value)
-
   if (key == null || value == null) return
 
   displayItems(items.filter((item) => item[key] === value))
@@ -39,9 +40,20 @@ function onClickButton(event, items) {
 function setEventListeners(items) {
   const logo = document.querySelector(".logo")
   const buttons = document.querySelector(".buttons")
+  const iconWish = document.querySelectorAll(".icon-wish")
 
   logo.addEventListener("click", () => displayItems(items))
   buttons.addEventListener("click", (event) => onClickButton(event, items))
+
+  for (var i = 0; i < iconWish.length; i++) {
+    iconWish[i].addEventListener("click", (event) => onClickWish(event))
+    console.log("ddd")
+  }
+}
+
+// wish
+function onClickWish(event) {
+  event.target.classList.toggle("is-active")
 }
 
 // 함수 호출
@@ -50,6 +62,6 @@ fetchData()
     displayItems(items)
     setEventListeners(items)
   })
-  .catch(() => {
-    console.log("error")
+  .catch((err) => {
+    console.log(err)
   })
